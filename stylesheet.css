@@ -44,6 +44,22 @@ h4 h1 {
   font-size: 70px;
 }
 
+.logos {
+  border-radius: 50%;
+  max-height: 100px;
+  display: inline-block;
+  padding: 20px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+span p {
+  font-size: 20px;
+}
+
 /* FOOTER */
 
 footer {
@@ -61,20 +77,4 @@ footer a {
   text-decoration: none;
   color: var(--footer_fg_color);
   align-items: center;
-}
-
-.logos {
-  border-radius: 50%;
-  max-height: 100px;
-  display: inline-block;
-  padding: 20px;
-}
-
-li {
-  display: flex;
-  align-items: center;
-}
-
-span p {
-  font-size: 20px;
 }
