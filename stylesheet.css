@@ -1,0 +1,80 @@
+/* VARIABLES */
+:root {
+  --header_bg_color: lightblue;
+  --footer_bg_color: black;
+  --footer_fg_color: white;
+}
+
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#profile-photo {
+  margin-left: 50px;
+  max-height: 500px;
+  border-radius: 50%;
+  padding-right: 30px;
+}
+
+.header {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  font-size: 30px;
+  background-color: var(--header_bg_color);
+}
+
+.bio-section {
+  max-width: 700px;
+}
+
+.interests {
+  margin: 20px;
+  font-size: 30px;
+  padding: 100px;
+  text-align: left;
+}
+
+h4 h1 {
+  font-size: 70px;
+}
+
+/* FOOTER */
+
+footer {
+  margin: 0;
+  height: 30px;
+  width: 100%;
+  background-color: var(--footer_bg_color);
+  color: var(--footer_fg_color);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--footer_fg_color);
+  align-items: center;
+}
+
+.logos {
+  border-radius: 50%;
+  max-height: 100px;
+  display: inline-block;
+  padding: 20px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+span p {
+  font-size: 20px;
+}
