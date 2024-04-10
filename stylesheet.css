@@ -19,7 +19,7 @@
   padding-right: 30px;
 }
 
-.header {
+header {
   height: 80vh;
   display: flex;
   justify-content: center;
