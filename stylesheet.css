@@ -1,6 +1,9 @@
 /* VARIABLES */
 :root {
   --header_bg_color: lightblue;
+
+  --body_fg_color: black;
+
   --footer_bg_color: black;
   --footer_fg_color: white;
 }
@@ -33,10 +36,12 @@ header {
   max-width: 700px;
 }
 
-.education {
+.education,
+.certification {
   margin: 20px;
   font-size: 30px;
-  padding: 100px;
+  padding-left: 100px;
+  padding-top: 30px;
   text-align: left;
 }
 
@@ -44,11 +49,21 @@ h4 h1 {
   font-size: 70px;
 }
 
-.logos {
+.logos,
+.logos-1,
+.logos-2 {
   border-radius: 50%;
   max-height: 100px;
-  display: inline-block;
   padding: 20px;
+}
+
+.logos-1 {
+  z-index: -1;
+}
+
+.logos-2 {
+  position: absolute;
+  margin-left: 50px;
 }
 
 li {
@@ -56,8 +71,17 @@ li {
   align-items: center;
 }
 
+span {
+  margin-left: 60px;
+}
+
 span p {
   font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--body_fg_color);
 }
 
 /* FOOTER */
