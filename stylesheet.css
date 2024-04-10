@@ -102,3 +102,9 @@ footer a {
   color: var(--footer_fg_color);
   align-items: center;
 }
+
+.contact-links a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
